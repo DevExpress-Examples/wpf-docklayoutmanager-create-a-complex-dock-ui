@@ -1,0 +1,43 @@
+﻿<Window x:Class="CreateLayoutGroups.Window1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="Window1" Height="300" Width="718" xmlns:dxdo="http://schemas.devexpress.com/winfx/2008/xaml/docking" xmlns:dxcore="http://schemas.devexpress.com/winfx/2008/xaml/core">
+    <Grid>
+        <dxdo:DockLayoutManager Margin="12" Name="dockManager1" dxcore:ThemeManager.ThemeName="Office2007Blue">
+            <dxdo:LayoutGroup x:Name="RootGroup" Orientation="Horizontal">
+
+                <dxdo:LayoutGroup x:Name="LayoutGroup1" Orientation="Vertical" ItemWidth="3*">
+
+                    <dxdo:LayoutGroup x:Name="LayoutGroup2" Orientation="Horizontal" ItemHeight="1.5*">
+                        <dxdo:LayoutPanel x:Name="paneToolbox" Caption="Toolbox" />
+                        <dxdo:LayoutPanel x:Name="paneFindResults" Caption="Find Results" />
+                        <dxdo:DocumentGroup x:Name="documentGroup1">
+                            <dxdo:DocumentPanel Caption="Document 1">
+                                <RichTextBox />
+                            </dxdo:DocumentPanel>
+                            <dxdo:DocumentPanel Caption="Document 2">
+                                <RichTextBox />
+                            </dxdo:DocumentPanel>
+                        </dxdo:DocumentGroup>
+                    </dxdo:LayoutGroup>
+                    <dxdo:TabbedGroup Padding="12">
+                        <dxdo:LayoutPanel x:Name="paneErrorList" Caption="Error List">
+                        </dxdo:LayoutPanel>
+
+                        <dxdo:LayoutPanel x:Name="paneOutput" Caption="Output">
+                        </dxdo:LayoutPanel>
+                    </dxdo:TabbedGroup>
+
+                </dxdo:LayoutGroup>
+
+                <dxdo:LayoutGroup x:Name="LayoutGroup3" Orientation="Vertical">
+                    <dxdo:LayoutPanel x:Name="paneSolutionExplorer" Caption="Solution Explorer" ItemHeight="100">
+                    </dxdo:LayoutPanel>
+                    <dxdo:LayoutPanel x:Name="paneProperties" Caption="Properties">
+                    </dxdo:LayoutPanel>
+
+                </dxdo:LayoutGroup>
+
+            </dxdo:LayoutGroup>
+
+
+        </dxdo:DockLayoutManager>
+    </Grid>
+</Window>
