@@ -1,5 +1,5 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateLayoutGroups", "CreateLayoutGroups\CreateLayoutGroups.csproj", "{AA36975D-FF9B-4EB1-8C5E-05A674B2D9D9}"
 EndProject
 Global
