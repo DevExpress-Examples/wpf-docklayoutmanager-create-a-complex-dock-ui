@@ -3,17 +3,17 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E1663)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# Create a Complex Layout of Dock Panels
+# WPF Dock Layout Manager - Create a Complex Layout of Dock Panels
 
 This example combines the following panels into [LayoutGroups](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutGroup) to create a dock UI:
 
-- _RootGroup_ (arranges _LayoutGroup1_ and _LayoutGroup3_ horizontally)
+- _RootGroup_ arranges _LayoutGroup1_ and _LayoutGroup3_ horizontally
 
-    - _LayoutGroup1_ (arranges _LayoutGroup2_ and [TabbedGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.TabbedGroup) vertically) 
+    - _LayoutGroup1_ arranges _LayoutGroup2_ and [TabbedGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.TabbedGroup) vertically 
 
-        - _LayoutGroup2_ (arranges three [LayoutPanels](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutPanel) horizontally)
+        - _LayoutGroup2_ arranges three [LayoutPanels](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutPanel) horizontally
 
-    - _LayoutGroup3_ (arranges two [LayoutPanels](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutPanel) vertically).
+    - _LayoutGroup3_ arranges two [LayoutPanels](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutPanel) vertically
 
 The following image shows the created structure of dock panels:
 
