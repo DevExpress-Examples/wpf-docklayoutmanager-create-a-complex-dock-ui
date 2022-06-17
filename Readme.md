@@ -1,24 +1,36 @@
 <!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128643102/21.1.5%2B)
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E1663)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
+# WPF Dock Layout Manager - Create a Complex Layout of Dock Panels
+
+This example combines the following panels into [LayoutGroups](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutGroup) to create a dock UI:
+
+- _RootGroup_ arranges _LayoutGroup1_ and _LayoutGroup3_ horizontally
+
+    - _LayoutGroup1_ arranges _LayoutGroup2_ and [TabbedGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.TabbedGroup) vertically 
+
+        - _LayoutGroup2_ arranges three [LayoutPanels](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutPanel) horizontally
+
+    - _LayoutGroup3_ arranges two [LayoutPanels](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutPanel) vertically
+
+The following image shows the created structure of dock panels:
+
+![image](https://user-images.githubusercontent.com/12169834/173858667-34ce8555-b158-43ab-8604-67972af88ed0.png)
+
 <!-- default file list -->
-*Files to look at*:
+## Files to Look At
 
-* **[Window1.xaml](./CS/CreateLayoutGroups/Window1.xaml) (VB: [Window1.xaml](./VB/CreateLayoutGroups/Window1.xaml))**
-* [Window1.xaml.cs](./CS/CreateLayoutGroups/Window1.xaml.cs) (VB: [Window1.xaml.vb](./VB/CreateLayoutGroups/Window1.xaml.vb))
+- [Window1.xaml](./CS/CreateLayoutGroups/Window1.xaml) (VB: [Window1.xaml](./VB/CreateLayoutGroups/Window1.xaml))
 <!-- default file list end -->
-# How to create a complex layout of dock panels
 
+## Documentation
 
-<p>This example shows how to create a complex layout of dock panels, by combining the panels into <a href="https://documentation.devexpress.com/#WPF/CustomDocument6824">LayoutGroups</a>. The following Layout Groups are created
+- [Dock UI Items](https://docs.devexpress.com/WPF/7209/controls-and-libraries/layout-management/dock-windows/dock-items)
+- [LayoutPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutPanel)
+- [LayoutGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutGroup)
+- [TabbedGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.TabbedGroup)
+- [Create a Simple Layout of Dock Panels](https://docs.devexpress.com/WPF/6654/controls-and-libraries/layout-management/dock-windows/getting-started/how-to-create-a-simple-layout-of-dock-panes)
 
-* RootGroup (arranges LayoutGroup1 and LayoutGroup3 horizontally)
-* LayoutGroup1 (arranges LayoutGroup2 and TabbedGroup vertically) 
-* LayoutGroup2 (arranges three <a href="https://documentation.devexpress.com/#WPF/CustomDocument6823">LayoutPanels</a> horizontally)
-* LayoutGroup3 (arranges two LayoutPanels vertically).</p>
-
-<br/>
-
-
+## More Examples
+- [WPF Dock Layout Manager - Create a Simple Layout of Dock Panes](https://github.com/DevExpress-Examples/how-to-create-a-simple-layout-of-dock-panes-e1600)
